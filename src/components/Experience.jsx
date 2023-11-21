@@ -1,11 +1,14 @@
 import React from "react";
 import "../styles/Experience.scss";
 import { CV } from "../utils/cv";
+import { MdOutlineWork } from "react-icons/md";
 
 const Experience = () => {
   return (
     <div className="experience-block">
-      <img src="" alt=""></img>
+      <p>
+        <MdOutlineWork />
+      </p>
       {CV.experience.map((info) => {
         return (
           <div className="experience">

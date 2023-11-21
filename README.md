@@ -4,3 +4,5 @@
 2. Put the name on the page of html.
 
 3. creation of components with their respective styles. modification of the readme, and creation of the cv.js document in utils.
+
+4.
