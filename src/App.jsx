@@ -1,11 +1,16 @@
 import "./App.scss";
+import Introduccion from "../src/components/Introduccion";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <div className="container">
-      <h1 className="title">Francesc Greoles</h1>
-      <p className="content">Full Stack Developer</p>
-      <p className="content">25-03-1996</p>
+      <Introduccion />
+      <Education />
+      <Experience />
+      <Skills />
     </div>
   );
 }

@@ -3,7 +3,12 @@
   width: 100%;
   padding: 40px;
   box-sizing: border-box;
-  background-color: black;
+  background-color: rgb(71, 70, 83);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
