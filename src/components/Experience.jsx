@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div className="experience-block">
       <p>
-        <MdOutlineWork />
+        <MdOutlineWork className="icon-2" />
       </p>
       {CV.experience.map((info) => {
         return (

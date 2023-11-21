@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="skills-block">
       <p>
-        <RiComputerFill />
+        <RiComputerFill className="icon-2" />
       </p>
       {CV.skills.map((info) => {
         return (

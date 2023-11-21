@@ -6,7 +6,7 @@ import { MdSchool } from "react-icons/md";
 const Education = (education) => {
   return (
     <div className="education-block">
-      <p>
+      <p className="icon-2">
         <MdSchool />
       </p>
       {CV.education.map((info) => {
@@ -15,6 +15,7 @@ const Education = (education) => {
             <h2 className="education-square">{info.name}</h2>
             <p className="education-square">{info.date}</p>
             <p className="education-square">{info.where}</p>
+            <p className="education-square">{info.info}</p>
           </div>
         );
       })}
