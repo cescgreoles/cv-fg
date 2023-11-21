@@ -1,6 +1,6 @@
-import "./App.scss";
+import React from "react";
 
-function App() {
+const Introduccion = () => {
   return (
     <div className="container">
       <h1 className="title">Francesc Greoles</h1>
@@ -8,6 +8,6 @@ function App() {
       <p className="content">25-03-1996</p>
     </div>
   );
-}
+};
 
-export default App;
+export default Introduccion;
