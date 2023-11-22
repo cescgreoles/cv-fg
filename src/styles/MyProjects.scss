@@ -1,0 +1,37 @@
+.my-projects-block {
+  background-color: aquamarine;
+
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.my-projects {
+  display: flex; /* Opcional: Utiliza flexbox */
+  flex-wrap: wrap; /* Para permitir que los elementos se envuelvan */
+  justify-content: space-around; /* Distribución equitativa de elementos */
+  gap: 20px; /* Espacio entre elementos (necesita flexbox, grid o múltiples columnas) */
+
+  // Otros estilos adicionales
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0.2em;
+  & > div {
+    width: calc(33.33% - 20px); /* Ancho de cada elemento hijo */
+    margin-bottom: 20px; /* Margen inferior */
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.my-projects-square {
+  color: black;
+  font-size: 16px;
+}

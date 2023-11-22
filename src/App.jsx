@@ -1,20 +1,15 @@
 import "./App.scss";
-import Introduccion from "../src/components/Introduccion";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import IconsGitLin from "./components/IconsGitLin";
+import { Route, Routes } from "react-router-dom";
+import MyProjects from "./components/MyProjects";
+import Home from "./Home/Home";
 
 function App() {
   return (
     <div className="container">
-      <IconsGitLin />
-      <Introduccion />
-      <Education />
-      <Experience />
-      <Skills />
-      <Projects />
+      <Home />
+      <Routes>
+        <Route path="myprojects" element={<MyProjects />} />
+      </Routes>
     </div>
   );
 }

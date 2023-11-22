@@ -93,7 +93,7 @@ export const CV = {
     {
       name: "React Records",
       url: "https://github.com/cescgreoles/ReactRecords",
-      description: "",
+      url1: "react-records-2wl2l4cs6-cescgreoles.vercel.app",
       img: "https://www.spirit-of-metal.com/label/logo/React%20Records_.jpg",
     },
     {
