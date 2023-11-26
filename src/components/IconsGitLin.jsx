@@ -2,13 +2,14 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import "../styles/IconGitLin.scss";
+import logo from "../assets/favicon-logo.png";
 
 const IconsGitLin = () => {
   const handleIconClick = () => {
     console.log("Icon clickeado");
   };
   return (
-    <div>
+    <div className="div-1-logo">
       <a
         href="https://www.linkedin.com/in/francesc-greoles-a215a5152/"
         target="_blank"
@@ -31,6 +32,7 @@ const IconsGitLin = () => {
           className="icon-1"
         />
       </a>
+      <img src={logo} alt="logo" className="logo"></img>
     </div>
   );
 };

@@ -104,7 +104,7 @@ export const CV = {
     },
     {
       name: "Simplemente",
-      url: "",
+      url: "https://github.com/eduardmos/front-enfermedades-final",
       description: "",
       img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
     },
