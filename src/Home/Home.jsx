@@ -4,7 +4,7 @@ import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import IconsGitLin from "../components/IconsGitLin";
+import IconsGitLin from "../components/IconsGitLin.jsx";
 import "../Home/Home.jsx";
 
 const Home = () => {
