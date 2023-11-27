@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import "../styles/IconGitLin.scss";
-import logo from "../assets/favicon-logo.png";
+import logo from "../assets/favicon.png";
 
 const IconsGitLin = () => {
   const handleIconClick = () => {

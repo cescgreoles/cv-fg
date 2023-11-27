@@ -28,19 +28,20 @@ export const CV = {
 
   education: [
     {
-      name: "Marketing and Digital Comunication",
-      date: "2017-2022",
-      where: "Euncet Business School",
-      info: "In my career I learned everything about the marketing world. I grew as a student and developed my best skills such as teamwork.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_UPC.svg/1200px-Logo_UPC.svg.png",
-    },
-    {
       name: "Full Stack Developer",
       date: "2022",
       where: "Upgrade HUB",
       info: "During the bootcamp I learned the Javascript language using several frameworks including React, Node and Angular.",
       img: "https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/598/original/LOGOTIPO_UPGRADE-01.png",
     },
+    {
+      name: "Marketing and Digital Comunication",
+      date: "2017-2022",
+      where: "Euncet Business School",
+      info: "In my career I learned everything about the marketing world. I grew as a student and developed my best skills such as teamwork.",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_UPC.svg/1200px-Logo_UPC.svg.png",
+    },
+
     {
       name: "Community manager and E-commerce",
       date: "2021",

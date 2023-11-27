@@ -14,3 +14,5 @@
 7. Update of the favicon and modification of the home page. IconsGitLin component implementation.
 
 8. Insert the different icons of the introduction using the react-icons library and modify part of cv.js
+
+9. change of the color favicon, change of the scss styles in app.scss, incorporation of several backgrounds and change of the color palette used for the web. use of the use state for the See my projects button.
