@@ -18,3 +18,7 @@
 9. change of the color favicon, change of the scss styles in app.scss, incorporation of several backgrounds and change of the color palette used for the web. use of the use state for the See my projects button.
 
 10. Change of name in Component A. Formatting of the web code and its good rendering. Incorporation of the file. "contextLanguage.jsx" to translate the page further.
+
+11. Finished this web for the moment.
+
+12. completion of the web site
