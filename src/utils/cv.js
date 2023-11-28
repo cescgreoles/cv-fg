@@ -70,13 +70,13 @@ export const CV = {
     {
       name: "PokeApi",
       url: "https://github.com/cescgreoles/JAVASCRIPT/tree/main/APIS/API-POKEMON",
-      description: "",
+      description: "cjckcdsncdkjdndn",
       img: "https://avatars.githubusercontent.com/u/64151210?v=4",
     },
     {
       name: "GameOfThrones",
       url: "https://github.com/cescgreoles/JAVASCRIPT/tree/main/APIS/API-GOT",
-      description: "",
+      description: "kcmlsdmcmdkld",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Game_of_Thrones_2011_logo.svg/2560px-Game_of_Thrones_2011_logo.svg.png",
     },
     {
@@ -88,25 +88,26 @@ export const CV = {
     {
       name: "Back-Node",
       url: "https://github.com/florenpedrajas/PROYECTO-FINAL-NODE",
-      description: "",
+      description: "lkmmdlkcmdk",
       img: "https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
     },
     {
       name: "React Records",
       url: "https://github.com/cescgreoles/ReactRecords",
       url1: "react-records-2wl2l4cs6-cescgreoles.vercel.app",
+      description: "lkmmdlkcmdk",
       img: "https://www.spirit-of-metal.com/label/logo/React%20Records_.jpg",
     },
     {
       name: "Argentina",
       url: "https://github.com/cescgreoles/frontArgentinaA",
-      description: "",
+      description: "lkmmdlkcmdk,",
       img: "https://static.wikia.nocookie.net/todofutbol/images/f/f1/AFA.gif/revision/latest?cb=20090730011816&path-prefix=es",
     },
     {
       name: "Simplemente",
       url: "https://github.com/eduardmos/front-enfermedades-final",
-      description: "",
+      description: "lkmmdlkcmdk",
       img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
     },
   ],

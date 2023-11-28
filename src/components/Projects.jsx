@@ -7,7 +7,7 @@ const ComponentA = () => {
   const [showComponentB, setShowComponentB] = useState(false);
 
   const toggleComponentB = () => {
-    setShowComponentB(!showComponentB); // Toggling the state to show/hide ComponentB
+    setShowComponentB(!showComponentB);
   };
 
   return (
@@ -16,7 +16,6 @@ const ComponentA = () => {
         See my projects now
       </button>
       {showComponentB && <ComponentB />}{" "}
-      {/* Rendering ComponentB conditionally */}
     </div>
   );
 };
@@ -27,9 +26,9 @@ const ComponentB = () => {
       {CV.portfolio.map((info) => {
         return (
           <div className="my-projects">
-            <h2 className="my-projects-square">{info.name}</h2>
-            {/* <p className="my-projects-square">{info.description}</p> */}
-            {/* <p className="my-projects-square">{info.url}</p> */}
+            <a href={info.url} className="a-href">
+              <h2 className="my-projects-square">{info.name}</h2>
+            </a>
           </div>
         );
       })}
