@@ -112,6 +112,21 @@ export const CV = {
     },
   ],
 
+  portfolio1: [
+    {
+      name1: "Óptica Carrilet",
+      url: "https://www.opticacarrilet.com",
+      description: "lkmmdlkcmdk",
+      img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
+    },
+    {
+      name1: "Ideas para cenar",
+      url: "https://github.com/cescgreoles/kitchen-friends-front",
+      description: "lkmmdlkcmdk",
+      img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
+    },
+  ],
+
   skills: [
     {
       name: "Git",

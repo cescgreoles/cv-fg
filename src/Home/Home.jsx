@@ -5,22 +5,19 @@ import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import IconsGitLin from "../components/IconsGitLin.jsx";
 import "../Home/Home.jsx";
-import ComponentA from "../components/Projects.jsx";
 import "../Home/Home.scss";
-import { LanguageProvider } from "../Home/ContextLanguage.jsx";
+import AllProjects from "../components/AllProjects.jsx";
 
 const Home = () => {
   return (
-    <LanguageProvider>
-      <div className="container-home">
-        <IconsGitLin />
-        <Introduccion />
-        <Education />
-        <Experience />
-        <Skills />
-        <ComponentA />
-      </div>
-    </LanguageProvider>
+    <div className="container-home">
+      <IconsGitLin />
+      <Introduccion />
+      <Education />
+      <Experience />
+      <Skills />
+      <AllProjects />
+    </div>
   );
 };
 

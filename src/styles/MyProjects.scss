@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     font-size: 12px;
-    background-color: #738678;
+    background-color: #829587;
 
     .a-href {
       text-decoration: none;
@@ -22,4 +22,9 @@
       margin-bottom: 0;
     }
   }
+}
+
+.projects-be {
+  display: flex;
+  justify-content: space-around;
 }

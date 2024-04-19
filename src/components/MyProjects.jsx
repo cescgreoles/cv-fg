@@ -12,14 +12,27 @@ const MyProjects = () => {
 
   return (
     <div className="my-projects-block">
-      {CV.portfolio.map((info) => {
-        return (
-          <button className="my-projects" onClick={toggleComponentB}>
-            {info.name}
-          </button>
-        );
-      })}
-      {showComponentB && <ComponentB />}{" "}
+      <div>
+        {CV.portfolio.map((info) => {
+          return (
+            <button className="my-projects" onClick={toggleComponentB}>
+              {info.name}
+            </button>
+          );
+        })}
+        {showComponentB && <ComponentB />}
+      </div>
+
+      <div>
+        {CV.portfolio.map((info) => {
+          return (
+            <button className="my-projects" onClick={toggleComponentB}>
+              {info.name}
+            </button>
+          );
+        })}
+        {showComponentB && <ComponentB />}
+      </div>
     </div>
   );
 };
