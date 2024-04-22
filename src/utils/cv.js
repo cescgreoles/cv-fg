@@ -125,6 +125,12 @@ export const CV = {
       description: "lkmmdlkcmdk",
       img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
     },
+    {
+      name1: "Quizz Football",
+      url: "quiz-football.vercel.app",
+      description: "lkmmdlkcmdk",
+      img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
+    },
   ],
 
   skills: [
