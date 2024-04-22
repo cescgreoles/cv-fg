@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { CV } from "../utils/cv";
+import { Link } from "react-router-dom"; // Importa Link desde react-router-dom
 import "../styles/AllProjects.scss"; // Asegúrate de importar tu archivo de estilos SCSS
 
 const AllProjects = () => {
@@ -23,9 +24,9 @@ const AllProjects = () => {
         {isBootcampOpen && (
           <div className="projects-list">
             {CV.portfolio.map((info, index) => (
-              <div className="project-item" key={index}>
+              <Link to={info.url} className="project-item" key={index}>
                 {info.name}
-              </div>
+              </Link>
             ))}
           </div>
         )}
@@ -37,9 +38,9 @@ const AllProjects = () => {
         {isPersonalOpen && (
           <div className="projects-list">
             {CV.portfolio1.map((info, index) => (
-              <div className="project-item" key={index}>
+              <Link to={info.url} className="project-item" key={index}>
                 {info.name1}
-              </div>
+              </Link>
             ))}
           </div>
         )}
