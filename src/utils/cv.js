@@ -120,14 +120,14 @@ export const CV = {
       img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
     },
     {
-      name1: "Ideas para cenar",
+      name1: "Ideas para cenar (in process)",
       url: "https://github.com/cescgreoles/kitchen-friends-front",
       description: "lkmmdlkcmdk",
       img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
     },
     {
       name1: "Quizz Football",
-      url: "quiz-football.vercel.app",
+      url: "http://quiz-football.vercel.app",
       description: "lkmmdlkcmdk",
       img: "https://llevatilde.es/imagetexts/c/cd/SiMPLEMENTE.png",
     },
