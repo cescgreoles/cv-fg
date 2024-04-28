@@ -15,7 +15,6 @@
 .projects-section {
   width: 90%;
   padding: 20px;
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,28 +38,30 @@
     width: 100%;
 
     .project-item {
-      width: 220px; /* Ajusta el ancho aquí */
-      height: 150px; /* Mantén el mismo alto */
-      padding: 10px;
-      background-color: white;
-      border-radius: 5px;
-      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      width: 120px; /* Ancho reducido para simular iconos de aplicaciones móviles */
+      height: 120px; /* Mantén el mismo alto */
+      background-color: #f2f2f2; /* Cambia el color de fondo */
+      border-radius: 20px; /* Aumenta el radio de borde para hacer que los elementos sean más redondeados */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
       transition: box-shadow 0.3s;
       text-decoration: none;
       color: #333333;
       font-weight: bold;
       text-align: center;
       overflow: hidden;
+      display: flex; /* Hacer que el contenedor sea un contenedor flexible */
+      justify-content: center; /* Centrar horizontalmente la imagen */
+      align-items: center; /* Centrar verticalmente la imagen */
 
       &:hover {
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Efecto de sombra más pronunciada al pasar el mouse */
       }
+    }
 
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+    img {
+      width: 100%; /* Ancho del 100% del contenedor */
+      height: 100%; /* Alto del 100% del contenedor */
+      object-fit: cover; /* La imagen cubre todo el espacio del contenedor */
     }
   }
 }

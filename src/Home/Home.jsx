@@ -7,12 +7,14 @@ import IconsGitLin from "../components/IconsGitLin.jsx";
 import "../Home/Home.jsx";
 import "../Home/Home.scss";
 import AllProjects from "../components/AllProjects.jsx";
+import AllProjectsP from "../components/AllProjectsP.jsx";
 
 const Home = () => {
   return (
     <div className="container-home">
       <IconsGitLin />
       <Introduccion />
+      <AllProjectsP />
       <Education />
       <Experience />
       <Skills />

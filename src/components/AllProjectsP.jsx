@@ -2,13 +2,13 @@ import { CV } from "../utils/cv";
 import { Link } from "react-router-dom"; // Importa Link desde react-router-dom
 import "../styles/AllProjects.scss"; // Asegúrate de importar tu archivo de estilos SCSS
 
-const AllProjects = () => {
+const AllProjectsP = () => {
   return (
     <div className="all-projects-container">
       <div className="projects-section">
-        <h3>My Bootcamp Projects</h3>
+        <h3>My Personal Projects</h3>
         <div className="projects-list">
-          {CV.portfolio.map((info, index) => (
+          {CV.portfolio1.map((info, index) => (
             <Link to={info.url} className="project-item" key={index}>
               <img src={info.img} alt={info.name}></img>
             </Link>
@@ -19,4 +19,4 @@ const AllProjects = () => {
   );
 };
 
-export default AllProjects;
+export default AllProjectsP;
