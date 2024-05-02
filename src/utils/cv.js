@@ -126,6 +126,18 @@ export const CV = {
       description: "lkmmdlkcmdk",
       img: require("../assets/2.jpg"),
     },
+    {
+      name1: "La Liga Team",
+      url: "https://laligateam.vercel.app/",
+      description: "",
+      img: require("../assets/7.png"),
+    },
+    {
+      name1: "Magic Memory",
+      url: "https://memory-blond-kappa.vercel.app/",
+      description: "",
+      img: require("../assets/8.png"),
+    },
   ],
 
   skills: [
