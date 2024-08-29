@@ -65,6 +65,13 @@ export const CV = {
       description:
         "Control of social networks. Logistics and sale of products to the stores.",
     },
+    {
+      name: "TAI Smart Factory",
+      date: "2024",
+      where: "Sant Cugat del Vallés",
+      description:
+        "During my 6-month tenure as a software developer at TAI, I was responsible for developing various software solutions tailored to client needs. My primary role involved designing and implementing multiple layouts that allowed clients to search and access vital information about their companies, machinery, and industrial data. Additionally, I took on the challenge of refactoring an existing legacy codebase from JavaScript to React, significantly enhancing the performance and maintainability of the applications. This experience allowed me to hone my skills in front-end development and provided valuable insights into transforming client requirements into efficient, user-friendly software interfaces.",
+    },
   ],
   portfolio: [
     {
